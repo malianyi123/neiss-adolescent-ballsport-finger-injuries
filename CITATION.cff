@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: "Adolescent ball-sport finger fractures and dislocations: reproducible NEISS analysis pipeline, 2015-2025"
+abstract: >-
+  A fully reproducible analysis pipeline for national emergency department estimates of
+  adolescent finger fractures and dislocations associated with selected ball sports, using
+  public CPSC National Electronic Injury Surveillance System (NEISS) annual archived data
+  for treatment years 2015-2025. The pipeline downloads the official source files, verifies
+  product/activity code mappings against the official CPSC data dictionary, constructs the
+  analytic cohort, and produces all tables, figures and supplementary material reported in
+  the associated manuscript, including survey-weighted national estimates with design-based
+  confidence intervals, a survey-weighted temporal analysis, and the adjusted case-mix model.
+type: software
+authors:
+  - family-names: "Li"
+    given-names: "Baolin"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO: add ORCID
+    # affiliation: ""                                   # TODO: add affiliation
+  # TODO: add co-authors in submission order, one block each
+license: MIT
+repository-code: "https://github.com/USERNAME/neiss-adolescent-ballsport-finger-injuries"  # TODO: replace USERNAME
+version: "1.0.0"
+date-released: "2026-08-16"   # TODO: set to the release date
+keywords:
+  - NEISS
+  - injury surveillance
+  - finger fracture
+  - finger dislocation
+  - adolescent
+  - sports medicine
+  - hand surgery
+  - complex survey analysis
+  - reproducible research

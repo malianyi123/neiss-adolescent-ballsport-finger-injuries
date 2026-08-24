@@ -1,0 +1,65 @@
+# Codebook Used
+
+- body_part / finger / `92`: 92 - FINGER
+- diagnosis / dislocation / `55`: 55 - DISLOCATION
+- diagnosis / fracture / `57`: 57 - FRACTURE
+- product / basketball / `1205`: 1205 - BASKETBALL, ACTIVITY AND RELATED EQUIPMENT
+- product / basketball / `3226`: 3226 - BASKETBALL (ACTIVITY, APPAREL OR EQUIPMENT), N.S.
+- product / basketball / `3242`: 3242 - ORGANIZED BASKETBALL (ACTIVITY, APPAREL OR EQUIP.)
+- product / basketball / `3267`: 3267 - INFORMAL BASKETBALL (ACTIVITY, APPAREL OR EQUIP.)
+- product / football / `1211`: 1211 - FOOTBALL (ACTIVITY, APPAREL OR EQUIPMENT)
+- product / football / `3227`: 3227 - INFORMAL FOOTBALL (ACTIVITY, APPAREL OR EQUIPMENT)
+- product / football / `3244`: 3244 - FOOTBALL (ACTIVITY, APPAREL OR EQUIPMENT), N.S.
+- product / football / `3269`: 3269 - ORGANIZED FOOTBALL (ACTIVITY, APPAREL OR EQUIPMENT)
+- product / baseball_softball / `1204`: 1204 - BASEBALL, ACTIVITY AND RELATED EQUIPMENT
+- product / baseball_softball / `3228`: 3228 - ORGANIZED BASEBALL (ACTIVITY, APPAREL OR EQUIPMENT)
+- product / baseball_softball / `3240`: 3240 - INFORMAL BASEBALL (ACTIVITY, APPAREL OR EQUIPMENT)
+- product / baseball_softball / `3270`: 3270 - BASEBALL (ACTIVITY, APPAREL OR EQUIP.), NOT SPECIFIED
+- product / baseball_softball / `5034`: 5034 - SOFTBALL (ACTIVITY, APPAREL OR EQUIPMENT)
+- product / baseball_softball / `5041`: 5041 - BASEBALL (ACTIVITY, APPAREL OR EQUIPMENT; EXCL SOFTBALL)
+- product / soccer / `1267`: 1267 - SOCCER (ACTIVITY, APPAREL OR EQUIPMENT)
+- product / soccer / `3225`: 3225 - ORGANIZED SOCCER (ACTIVITY, APPAREL OR EQUIPMENT)
+- product / soccer / `3241`: 3241 - INFORMAL SOCCER (ACTIVITY, APPAREL OR EQUIPMENT)
+- product / soccer / `3271`: 3271 - SOCCER (ACTIVITY, APPAREL OR EQUIPMENT), NOT SPECIFIED
+- product / volleyball / `1266`: 1266 - VOLLEYBALL (ACTIVITY, APPAREL OR EQUIPMENT)
+- product / volleyball / `3220`: 3220 - VOLLEYBALL (ACTIVITY, APPAREL OR EQUIPMENT), N.S.
+- product / volleyball / `3243`: 3243 - ORGANIZED VOLLEYBALL (ACTIVITY, APPAREL OR EQUIP.)
+- product / volleyball / `3268`: 3268 - INFORMAL VOLLEYBALL (ACTIVITY, APPAREL OR EQUIP.)
+- product / other_selected_ball_sports / `1215`: 1215 - LACROSSE (ACTIVITY, APPAREL OR EQUIPMENT)
+- product / other_selected_ball_sports / `1279`: 1279 - ICE HOCKEY (ACTIVITY, APPAREL OR EQUIPMENT)
+- product / other_selected_ball_sports / `1282`: 1282 - HANDBALL (ACTIVITY, APPAREL OR EQUIPMENT)
+- product / other_selected_ball_sports / `1295`: 1295 - FIELD HOCKEY (ACTIVITY, APPAREL OR EQUIPMENT)
+- product / other_selected_ball_sports / `3234`: 3234 - RUGBY (ACTIVITY, APPAREL OR EQUIPMENT)
+- product / other_selected_ball_sports / `3235`: 3235 - OTHER BALL SPORTS (ACTIVITY, APPAREL OR EQUIPMENT)
+- product / other_selected_ball_sports / `3236`: 3236 - BALL SPORTS (ACTIVITY, APPAREL OR EQUIPMENT), N.S.
+- product / other_selected_ball_sports / `3245`: 3245 - STREET HOCKEY (ACTIVITY, APPAREL OR EQUIPMENT)
+- product / other_selected_ball_sports / `3272`: 3272 - HOCKEY (ACTIVITY, APPAREL OR EQUIPMENT), NOT SPECIFIED
+- product / other_selected_ball_sports / `5032`: 5032 - ROLLER HOCKEY (ACTIVITY, APPAREL OR EQUIPMENT)
+- sex / sex / `0`: UNKNOWN
+- sex / sex / `1`: MALE
+- sex / sex / `2`: FEMALE
+- race / race / `0`: N.S.
+- race / race / `1`: WHITE
+- race / race / `2`: BLACK/AFRICAN AMERICAN
+- race / race / `3`: OTHER
+- race / race / `4`: ASIAN
+- race / race / `5`: AMERICAN INDIAN/ALASKA NATIVE
+- race / race / `6`: NATIVE HAWAIIAN/PACIFIC ISLANDER
+- disposition / disposition / `0`: 0 - NO INJURY
+- disposition / disposition / `1`: 1 - TREATED/EXAMINED AND RELEASED
+- disposition / disposition / `2`: 2 - TREATED AND TRANSFERRED
+- disposition / disposition / `4`: 4 - TREATED AND ADMITTED/HOSPITALIZED
+- disposition / disposition / `5`: 5 - HELD FOR OBSERVATION
+- disposition / disposition / `6`: 6 - LEFT WITHOUT BEING SEEN
+- disposition / disposition / `8`: 8 - FATALITY INCL. DOA, DIED IN ER
+- disposition / disposition / `9`: 9 - UNKNOWN, NOT STATED
+- location / location / `0`: UNK
+- location / location / `1`: HOME
+- location / location / `2`: FARM
+- location / location / `3`: APART.
+- location / location / `4`: STREET
+- location / location / `5`: PUBLIC
+- location / location / `6`: MOBILE
+- location / location / `7`: INDST.
+- location / location / `8`: SCHOOL
+- location / location / `9`: SPORTS

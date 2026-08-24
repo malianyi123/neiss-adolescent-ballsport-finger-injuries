@@ -1,0 +1,15 @@
+source,descriptor,unweighted_n,weighted_estimate,cv_pct,flag
+Table 1,Sex: unknown/other,1,6,100.0,estimate<1200; n<20; cv>33%
+Table 1,Disposition: observation,3,143,70.3,estimate<1200; n<20; cv>33%
+Table 1,Disposition: other/unknown,32,536,34.0,estimate<1200; cv>33%
+Table 1,Disposition: transferred,15,746,41.1,estimate<1200; n<20; cv>33%
+Table 2 (severe disposition),football: severe disposition,43,1009,28.0,estimate<1200
+Table 2 (severe disposition),basketball: severe disposition,18,335,37.1,estimate<1200; n<20; cv>33%
+Table 2 (severe disposition),baseball/softball: severe disposition,8,118,59.1,estimate<1200; n<20; cv>33%
+Table 2 (severe disposition),soccer: severe disposition,9,264,44.5,estimate<1200; n<20; cv>33%
+Table 2 (severe disposition),other selected ball sports: severe disposition,8,233,45.5,estimate<1200; n<20; cv>33%
+Table 2 (severe disposition),volleyball: severe disposition,3,144,58.4,estimate<1200; n<20; cv>33%
+Annual by sport,volleyball 2015,43,1109,23.8,estimate<1200
+Annual by sport,other selected ball sports 2020,47,1071,27.3,estimate<1200
+Annual by sport,soccer 2020,50,1141,37.5,estimate<1200; cv>33%
+Annual by sport,volleyball 2020,26,616,29.5,estimate<1200

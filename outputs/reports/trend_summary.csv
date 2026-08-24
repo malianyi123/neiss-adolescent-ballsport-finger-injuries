@@ -1,0 +1,3 @@
+model,slope_per_year,p_value,r_squared,note
+"linear annual weighted totals, 2015-2025",-1281.8125563636368,0.19934095915580227,0.17574406569999865,descriptive trend; no sport-exposure denominator
+"linear annual weighted totals, excluding 2020-2021",-1155.0776802040818,0.03051159625057026,0.5106798756607319,descriptive sensitivity trend; pandemic years excluded

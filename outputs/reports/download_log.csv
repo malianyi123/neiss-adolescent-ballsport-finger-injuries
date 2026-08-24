@@ -1,0 +1,14 @@
+resource,year,file,source_url,download_utc,status,message
+NEISS Data Dictionary,,data/raw/neiss/DataDictionary042022.xlsx,https://www.cpsc.gov/s3fs-public/DataDictionary042022.xlsx?VersionId=ZudA.bM6W3epO1LHUp_XwQjL8q7zIgvD,2026-05-16T11:33:56+00:00,ok,already present
+NEISS format file,,data/raw/neiss/neiss_fmt.txt,https://www.cpsc.gov/cgibin/NEISSQuery/Data/Info%20Docs/neiss_fmt.txt,2026-05-16T11:33:56+00:00,ok,already present
+annual archived NEISS TSV,2015,data/raw/neiss/neiss2015.tsv,https://www.cpsc.gov/cgibin/NEISSQuery/Data/Archived%20Data/2015/neiss2015.tsv,2026-05-16T11:33:56+00:00,ok,already present
+annual archived NEISS TSV,2016,data/raw/neiss/neiss2016.tsv,https://www.cpsc.gov/cgibin/NEISSQuery/Data/Archived%20Data/2016/neiss2016.tsv,2026-05-16T11:33:56+00:00,ok,already present
+annual archived NEISS TSV,2017,data/raw/neiss/neiss2017.tsv,https://www.cpsc.gov/cgibin/NEISSQuery/Data/Archived%20Data/2017/neiss2017.tsv,2026-05-16T11:33:56+00:00,ok,already present
+annual archived NEISS TSV,2018,data/raw/neiss/neiss2018.tsv,https://www.cpsc.gov/cgibin/NEISSQuery/Data/Archived%20Data/2018/neiss2018.tsv,2026-05-16T11:33:56+00:00,ok,already present
+annual archived NEISS TSV,2019,data/raw/neiss/neiss2019.tsv,https://www.cpsc.gov/cgibin/NEISSQuery/Data/Archived%20Data/2019/neiss2019.tsv,2026-05-16T11:33:56+00:00,ok,already present
+annual archived NEISS TSV,2020,data/raw/neiss/neiss2020.tsv,https://www.cpsc.gov/cgibin/NEISSQuery/Data/Archived%20Data/2020/neiss2020.tsv,2026-05-16T11:33:56+00:00,ok,already present
+annual archived NEISS TSV,2021,data/raw/neiss/neiss2021.tsv,https://www.cpsc.gov/cgibin/NEISSQuery/Data/Archived%20Data/2021/neiss2021.tsv,2026-05-16T11:33:56+00:00,ok,already present
+annual archived NEISS TSV,2022,data/raw/neiss/neiss2022.tsv,https://www.cpsc.gov/cgibin/NEISSQuery/Data/Archived%20Data/2022/neiss2022.tsv,2026-05-16T11:33:56+00:00,ok,already present
+annual archived NEISS TSV,2023,data/raw/neiss/neiss2023.tsv,https://www.cpsc.gov/cgibin/NEISSQuery/Data/Archived%20Data/2023/neiss2023.tsv,2026-05-16T11:33:56+00:00,ok,already present
+annual archived NEISS TSV,2024,data/raw/neiss/neiss2024.tsv,https://www.cpsc.gov/cgibin/NEISSQuery/Data/Archived%20Data/2024/neiss2024.tsv,2026-05-16T11:33:56+00:00,ok,already present
+annual archived NEISS TSV,2025,data/raw/neiss/neiss2025.tsv,https://www.cpsc.gov/cgibin/NEISSQuery/Data/Archived%20Data/2025/neiss2025.tsv,2026-05-16T11:33:56+00:00,ok,already present

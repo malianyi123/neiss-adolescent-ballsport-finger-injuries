@@ -1,0 +1,21 @@
+Figure 1 QC report
+==================
+Final unweighted NEISS records: 16,066
+Final weighted national estimate: 441,441 ED visits
+
+Output files:
+- outputs/figures/figure_1_cohort_flow.png
+- outputs/figures/figure_1_cohort_flow.pdf
+- outputs/figures/figure_1_cohort_flow.svg
+
+QC checks:
+- Final n equals 16,066: PASS
+- Final weighted national estimate equals 441,441: PASS
+- All figure files exist and are non-empty: PASS
+- Figure uses NEISS records rather than patients or athletes: PASS
+- Weighted estimates are not labeled as incidence: PASS
+
+Warnings:
+- None
+
+Overall QC: PASS

@@ -1,0 +1,1 @@
+Severe-disposition model not run. Severe events=89; approximate parameters=9; minimum sport category n=617. The prespecified sparse-event rule was not met.

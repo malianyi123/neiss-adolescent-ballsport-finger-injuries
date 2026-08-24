@@ -1,0 +1,30 @@
+{
+  "other_group": {
+    "n": 974,
+    "weighted": 27066.3322,
+    "hockey_variants_pct": 16.07908551421681,
+    "puck_only_pct": 11.555093157395001,
+    "generic_ball_pct": 68.75895619133797,
+    "puck_share_of_whole_cohort_pct": 0.708484525098078,
+    "hockey_share_of_whole_cohort_pct": 0.9858668475780133
+  },
+  "volleyball_contrasts": [
+    {
+      "a": "volleyball",
+      "b": "football",
+      "diff_pp": 1.0806030236405832,
+      "lo": -3.7258693138050165,
+      "hi": 5.8870753610861835,
+      "p": 0.6594649093342562
+    },
+    {
+      "a": "volleyball",
+      "b": "basketball",
+      "diff_pp": 1.1837034612371204,
+      "lo": -3.6127214626825146,
+      "hi": 5.980128385156756,
+      "p": 0.6285946424866147
+    }
+  ],
+  "note": "see model_main_refit.csv for the 13-15 vs 10-12 estimate"
+}

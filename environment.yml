@@ -1,0 +1,17 @@
+name: neiss-ball-sport-finger-injuries
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - pandas
+  - numpy
+  - pyyaml
+  - openpyxl
+  - beautifulsoup4
+  - requests
+  - matplotlib
+  - seaborn
+  - scipy
+  - statsmodels
+  - tabulate
+  - python-docx

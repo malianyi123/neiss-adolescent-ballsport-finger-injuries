@@ -1,0 +1,64 @@
+domain,name,code,label,validated
+body_part,finger,92,92 - FINGER,True
+diagnosis,dislocation,55,55 - DISLOCATION,True
+diagnosis,fracture,57,57 - FRACTURE,True
+product,basketball,1205,"1205 - BASKETBALL, ACTIVITY AND RELATED EQUIPMENT",True
+product,basketball,3226,"3226 - BASKETBALL (ACTIVITY, APPAREL OR EQUIPMENT), N.S.",True
+product,basketball,3242,"3242 - ORGANIZED BASKETBALL (ACTIVITY, APPAREL OR EQUIP.)",True
+product,basketball,3267,"3267 - INFORMAL BASKETBALL (ACTIVITY, APPAREL OR EQUIP.)",True
+product,football,1211,"1211 - FOOTBALL (ACTIVITY, APPAREL OR EQUIPMENT)",True
+product,football,3227,"3227 - INFORMAL FOOTBALL (ACTIVITY, APPAREL OR EQUIPMENT)",True
+product,football,3244,"3244 - FOOTBALL (ACTIVITY, APPAREL OR EQUIPMENT), N.S.",True
+product,football,3269,"3269 - ORGANIZED FOOTBALL (ACTIVITY, APPAREL OR EQUIPMENT)",True
+product,baseball_softball,1204,"1204 - BASEBALL, ACTIVITY AND RELATED EQUIPMENT",True
+product,baseball_softball,3228,"3228 - ORGANIZED BASEBALL (ACTIVITY, APPAREL OR EQUIPMENT)",True
+product,baseball_softball,3240,"3240 - INFORMAL BASEBALL (ACTIVITY, APPAREL OR EQUIPMENT)",True
+product,baseball_softball,3270,"3270 - BASEBALL (ACTIVITY, APPAREL OR EQUIP.), NOT SPECIFIED",True
+product,baseball_softball,5034,"5034 - SOFTBALL (ACTIVITY, APPAREL OR EQUIPMENT)",True
+product,baseball_softball,5041,"5041 - BASEBALL (ACTIVITY, APPAREL OR EQUIPMENT; EXCL SOFTBALL)",True
+product,soccer,1267,"1267 - SOCCER (ACTIVITY, APPAREL OR EQUIPMENT)",True
+product,soccer,3225,"3225 - ORGANIZED SOCCER (ACTIVITY, APPAREL OR EQUIPMENT)",True
+product,soccer,3241,"3241 - INFORMAL SOCCER (ACTIVITY, APPAREL OR EQUIPMENT)",True
+product,soccer,3271,"3271 - SOCCER (ACTIVITY, APPAREL OR EQUIPMENT), NOT SPECIFIED",True
+product,volleyball,1266,"1266 - VOLLEYBALL (ACTIVITY, APPAREL OR EQUIPMENT)",True
+product,volleyball,3220,"3220 - VOLLEYBALL (ACTIVITY, APPAREL OR EQUIPMENT), N.S.",True
+product,volleyball,3243,"3243 - ORGANIZED VOLLEYBALL (ACTIVITY, APPAREL OR EQUIP.)",True
+product,volleyball,3268,"3268 - INFORMAL VOLLEYBALL (ACTIVITY, APPAREL OR EQUIP.)",True
+product,other_selected_ball_sports,1215,"1215 - LACROSSE (ACTIVITY, APPAREL OR EQUIPMENT)",True
+product,other_selected_ball_sports,1279,"1279 - ICE HOCKEY (ACTIVITY, APPAREL OR EQUIPMENT)",True
+product,other_selected_ball_sports,1282,"1282 - HANDBALL (ACTIVITY, APPAREL OR EQUIPMENT)",True
+product,other_selected_ball_sports,1295,"1295 - FIELD HOCKEY (ACTIVITY, APPAREL OR EQUIPMENT)",True
+product,other_selected_ball_sports,3234,"3234 - RUGBY (ACTIVITY, APPAREL OR EQUIPMENT)",True
+product,other_selected_ball_sports,3235,"3235 - OTHER BALL SPORTS (ACTIVITY, APPAREL OR EQUIPMENT)",True
+product,other_selected_ball_sports,3236,"3236 - BALL SPORTS (ACTIVITY, APPAREL OR EQUIPMENT), N.S.",True
+product,other_selected_ball_sports,3245,"3245 - STREET HOCKEY (ACTIVITY, APPAREL OR EQUIPMENT)",True
+product,other_selected_ball_sports,3272,"3272 - HOCKEY (ACTIVITY, APPAREL OR EQUIPMENT), NOT SPECIFIED",True
+product,other_selected_ball_sports,5032,"5032 - ROLLER HOCKEY (ACTIVITY, APPAREL OR EQUIPMENT)",True
+sex,sex,0,UNKNOWN,True
+sex,sex,1,MALE,True
+sex,sex,2,FEMALE,True
+race,race,0,N.S.,True
+race,race,1,WHITE,True
+race,race,2,BLACK/AFRICAN AMERICAN,True
+race,race,3,OTHER,True
+race,race,4,ASIAN,True
+race,race,5,AMERICAN INDIAN/ALASKA NATIVE,True
+race,race,6,NATIVE HAWAIIAN/PACIFIC ISLANDER,True
+disposition,disposition,0,0 - NO INJURY,True
+disposition,disposition,1,1 - TREATED/EXAMINED AND RELEASED,True
+disposition,disposition,2,2 - TREATED AND TRANSFERRED,True
+disposition,disposition,4,4 - TREATED AND ADMITTED/HOSPITALIZED,True
+disposition,disposition,5,5 - HELD FOR OBSERVATION,True
+disposition,disposition,6,6 - LEFT WITHOUT BEING SEEN,True
+disposition,disposition,8,"8 - FATALITY INCL. DOA, DIED IN ER",True
+disposition,disposition,9,"9 - UNKNOWN, NOT STATED",True
+location,location,0,UNK,True
+location,location,1,HOME,True
+location,location,2,FARM,True
+location,location,3,APART.,True
+location,location,4,STREET,True
+location,location,5,PUBLIC,True
+location,location,6,MOBILE,True
+location,location,7,INDST.,True
+location,location,8,SCHOOL,True
+location,location,9,SPORTS,True

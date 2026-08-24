@@ -1,0 +1,27 @@
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:            dislocation   No. Observations:                16065
+Model:                            GLM   Df Residuals:                441425.28
+Model Family:                Binomial   Df Model:                            9
+Link Function:                  Logit   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:            -1.8574e+05
+Date:                Sat, 16 May 2026   Deviance:                   3.7147e+05
+Time:                        19:35:10   Pearson chi2:                 4.48e+05
+No. Iterations:                     6   Pseudo R-squ. (CS):             0.8214
+Covariance Type:              cluster                                         
+=================================================================================================================================================
+                                                                                    coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                                        -2.1922      0.100    -21.856      0.000      -2.389      -1.996
+C(sport_group, Treatment(reference='football'))[T.basketball]                     0.0520      0.064      0.807      0.419      -0.074       0.178
+C(sport_group, Treatment(reference='football'))[T.baseball/softball]             -0.4128      0.135     -3.068      0.002      -0.676      -0.149
+C(sport_group, Treatment(reference='football'))[T.soccer]                        -0.2039      0.163     -1.253      0.210      -0.523       0.115
+C(sport_group, Treatment(reference='football'))[T.other selected ball sports]    -0.5591      0.171     -3.272      0.001      -0.894      -0.224
+C(sport_group, Treatment(reference='football'))[T.volleyball]                     0.2317      0.167      1.385      0.166      -0.096       0.560
+C(age_group)[T.13-15]                                                             0.6114      0.076      8.021      0.000       0.462       0.761
+C(age_group)[T.16-18]                                                             1.5800      0.107     14.809      0.000       1.371       1.789
+C(sex_clean)[T.female]                                                           -0.5563      0.099     -5.621      0.000      -0.750      -0.362
+year_centered                                                                    -0.0120      0.013     -0.925      0.355      -0.038       0.013
+=================================================================================================================================================
+
+Note: adjusted regression excludes records with sex coded unknown/other to avoid sparse-cell separation; descriptive tables retain them.

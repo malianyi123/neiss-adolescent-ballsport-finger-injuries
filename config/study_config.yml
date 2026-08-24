@@ -1,0 +1,56 @@
+study:
+  title: "Adolescent finger fractures and dislocations associated with selected ball sports: national emergency department burden and case mix, 2015-2025"
+  years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+  age_min: 10
+  age_max: 18
+  main_products_only: true
+  exclude_obvious_nonparticipants: true
+  other_selected_ball_sports_min_unweighted_n: 20
+
+sources:
+  neiss_main_page: "https://www.cpsc.gov/Research--Statistics/NEISS-Injury-Data"
+  neiss_query_page: "https://www.cpsc.gov/cgibin/NEISSQuery/home.aspx"
+  neiss_estimate_explanation: "https://www.cpsc.gov/Research--Statistics/NEISS-Injury-Data/Explanation-Of-NEISS-Estimates-Obtained-Through-The-CPSC-Website"
+  data_dictionary_url: "https://www.cpsc.gov/s3fs-public/DataDictionary042022.xlsx?VersionId=ZudA.bM6W3epO1LHUp_XwQjL8q7zIgvD"
+  format_file_url: "https://www.cpsc.gov/cgibin/NEISSQuery/Data/Info%20Docs/neiss_fmt.txt"
+  annual_tsv_url_template: "https://www.cpsc.gov/cgibin/NEISSQuery/Data/Archived%20Data/{year}/neiss{year}.tsv"
+
+official_codes_to_validate:
+  body_part:
+    finger:
+      code: 92
+      expected_label_contains: "FINGER"
+  diagnosis:
+    dislocation:
+      code: 55
+      expected_label_contains: "DISLOCATION"
+    fracture:
+      code: 57
+      expected_label_contains: "FRACTURE"
+
+sport_code_candidates:
+  basketball:
+    expected_label_contains: "BASKETBALL"
+    codes: [1205, 3226, 3242, 3267]
+  football:
+    expected_label_contains: "FOOTBALL"
+    codes: [1211, 3227, 3244, 3269]
+  baseball_softball:
+    label: "baseball/softball"
+    expected_label_contains_any: ["BASEBALL", "SOFTBALL"]
+    codes: [1204, 3228, 3240, 3270, 5034, 5041]
+  soccer:
+    expected_label_contains: "SOCCER"
+    codes: [1267, 3225, 3241, 3271]
+  volleyball:
+    expected_label_contains: "VOLLEYBALL"
+    codes: [1266, 3220, 3243, 3268]
+  other_selected_ball_sports:
+    label: "other selected ball and stick sports"
+    expected_label_contains_any: ["LACROSSE", "RUGBY", "HANDBALL", "HOCKEY", "OTHER BALL SPORTS", "BALL SPORTS"]
+    codes: [1215, 1279, 1282, 1295, 3234, 3235, 3236, 3245, 3272, 5032]
+
+instability:
+  min_estimate: 1200
+  min_unweighted_n: 20
+  max_cv: 0.33

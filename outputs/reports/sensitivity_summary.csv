@@ -1,0 +1,3 @@
+cohort,unweighted_n,weighted_estimate,note
+main restricted to 2019-2025,9300,247727.3594,Computed in table S4 by sport below.
+sensitivity 2019-2025 including secondary/product_3 variables,9502,254069.2108,"Uses Body_Part_2, Diagnosis_2, and Product_3 when available."

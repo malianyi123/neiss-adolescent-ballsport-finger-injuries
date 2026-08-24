@@ -1,0 +1,28 @@
+
+Call:
+svyglm(formula = dislocation ~ sport_group + age_group + sex_clean + 
+    year_centered, design = model_des, family = quasibinomial())
+
+Survey design:
+svydesign(ids = ~psu, strata = ~stratum, weights = ~weight, nest = TRUE, 
+    data = model_df)
+
+Coefficients:
+                                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                           -2.19216    0.09926 -22.084  < 2e-16 ***
+sport_groupbaseball/softball          -0.41277    0.13214  -3.124  0.00229 ** 
+sport_groupbasketball                  0.05203    0.06664   0.781  0.43660    
+sport_groupother selected ball sports -0.55912    0.16935  -3.302  0.00130 ** 
+sport_groupsoccer                     -0.20389    0.16417  -1.242  0.21695    
+sport_groupvolleyball                  0.23168    0.16455   1.408  0.16202    
+age_group13-15                         0.61142    0.07603   8.042 1.22e-12 ***
+age_group16-18                         1.58004    0.10590  14.920  < 2e-16 ***
+sex_cleanfemale                       -0.55630    0.10278  -5.412 3.78e-07 ***
+year_centered                         -0.01205    0.01303  -0.925  0.35719    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for quasibinomial family taken to be 1.01589)
+
+Number of Fisher Scoring iterations: 4
+
