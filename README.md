@@ -145,3 +145,45 @@ above (see `CITATION.cff`).
 
 Analysis code: MIT (see [`LICENSE`](LICENSE)). NEISS data is a public product of the U.S.
 Consumer Product Safety Commission and is not redistributed here.
+
+## Revision code (v1.1.0)
+
+### Second revision (`scripts/revision_r2/`)
+
+| Script | Purpose |
+|---|---|
+| `09_trend_covariance.R` | Builds `svydesign(~psu, strata=~stratum, weights=~weight, nest=TRUE)` on the full pooled 2015-2025 file and selects the cohort with `subset()` (design-then-subset); annual totals with `svyby(..., covmat=TRUE)`; trend slopes under four covariance treatments (pooled design). |
+| `trend_covariance_python.py` | Independent Python implementation of the same covariance and trend calculations. |
+| `survey_ultimate_cluster.py` | Stratified ultimate-cluster totals and covariances (replicates `survey::svytotal` / `svyby(covmat=TRUE)`). |
+
+### Third revision (`scripts/revision_r3/`)
+
+```
+python scripts/revision_r3/r3_design_analysis.py .     # writes outputs/reports/r3/
+python scripts/revision_r3/r3_figures.py .             # writes outputs/figures/ (Figures 1 and 2)
+```
+
+`r3_design_analysis.py` (Python >= 3.9, numpy, pandas) reads `data/raw/neiss/neiss2015.tsv` ... `neiss2025.tsv` and
+`data/processed/cohort_main.csv` and produces:
+
+| Output | Content | Manuscript |
+|---|---|---|
+| `r3_split_records.csv` | 8 records whose narrative contains a line break (rejoined by the reader) | Table S2, Figure 1 |
+| `r3_cohort_flow_rows.csv` | Cohort-flow rows recomputed after rejoining | Table S2 |
+| `r3_active_units_by_stratum_year.csv`, `r3_boundary_flows.csv`, `r3_restratified_hospitals.csv` | Active sampling units by stratum and year; entry/exit; the 19 re-stratified hospitals | Table S3e |
+| `r3_annual_by_sport.csv` | Annual estimates with year-specific and pooled-design SEs | Table S3a |
+| `r3_correlation_*.csv` | Correlation between annual estimates under six designs | Table S3d |
+| `r3_trend_models.csv`, `r3_contrasts.csv` | Trend slopes (4 specifications x 6 designs) and ratio contrasts | Tables S3b, S3c; Results |
+| `r3_national_context.csv`, `r3_results.json` | 2023-2024 step diagnostics and summary | Table S3f |
+
+Designs: `pooled` reproduces the second-revision values exactly; `year_specific` (primary for annual and temporal
+results) uses, for each year, the units reporting in that year, and estimates the covariance between years from the
+units reporting in both years (Wood 2008, J Off Stat 24:53-78); `*_linked_*` treat the 19 hospitals re-stratified at
+the 2024 NEISS redesign as one unit across the boundary.
+
+#### Reader fix
+The annual files contain 8 records with a line break inside `Narrative_1`; `pandas.read_csv(sep="\t")`
+(`scripts/utils.py`, line 218) splits each into two rows. `r3_design_analysis.py` rejoins them (a physical line that
+does not start with `<case number>\t<MM/DD/YYYY>\t` is appended to the previous record) and reads Stratum, PSU and
+Weight from the last three fields, because one 2024 record and one 2025 record contain a quoted tab. No cohort record
+is affected.

@@ -1,0 +1,266 @@
+{
+ "structure": {
+  "stratum_nested_units": 122,
+  "distinct_psu_codes": 103,
+  "codes_in_more_than_one_stratum": 19,
+  "max_strata_per_code_within_a_year": 1,
+  "units_eraA": 95,
+  "units_eraB": 79,
+  "units_both_eras_same_stratum": 52,
+  "hospitals_both_eras_linked": 71,
+  "hospitals_2023_and_2024": 68,
+  "hospitals_2024": 77
+ },
+ "boundary_flows": [
+  {
+   "boundary": "2015-2016",
+   "entering": 5,
+   "leaving": 3,
+   "continuing_same_stratum": 79,
+   "entering_restratified": 0,
+   "new_hospitals": 5,
+   "departed_hospitals": 3
+  },
+  {
+   "boundary": "2016-2017",
+   "entering": 5,
+   "leaving": 0,
+   "continuing_same_stratum": 84,
+   "entering_restratified": 0,
+   "new_hospitals": 5,
+   "departed_hospitals": 0
+  },
+  {
+   "boundary": "2017-2018",
+   "entering": 1,
+   "leaving": 2,
+   "continuing_same_stratum": 87,
+   "entering_restratified": 0,
+   "new_hospitals": 1,
+   "departed_hospitals": 2
+  },
+  {
+   "boundary": "2018-2019",
+   "entering": 1,
+   "leaving": 5,
+   "continuing_same_stratum": 83,
+   "entering_restratified": 0,
+   "new_hospitals": 1,
+   "departed_hospitals": 5
+  },
+  {
+   "boundary": "2019-2020",
+   "entering": 3,
+   "leaving": 5,
+   "continuing_same_stratum": 79,
+   "entering_restratified": 0,
+   "new_hospitals": 3,
+   "departed_hospitals": 5
+  },
+  {
+   "boundary": "2020-2021",
+   "entering": 1,
+   "leaving": 3,
+   "continuing_same_stratum": 79,
+   "entering_restratified": 0,
+   "new_hospitals": 1,
+   "departed_hospitals": 3
+  },
+  {
+   "boundary": "2021-2022",
+   "entering": 0,
+   "leaving": 2,
+   "continuing_same_stratum": 78,
+   "entering_restratified": 0,
+   "new_hospitals": 0,
+   "departed_hospitals": 2
+  },
+  {
+   "boundary": "2022-2023",
+   "entering": 4,
+   "leaving": 4,
+   "continuing_same_stratum": 74,
+   "entering_restratified": 0,
+   "new_hospitals": 4,
+   "departed_hospitals": 4
+  },
+  {
+   "boundary": "2023-2024",
+   "entering": 28,
+   "leaving": 29,
+   "continuing_same_stratum": 49,
+   "entering_restratified": 19,
+   "new_hospitals": 9,
+   "departed_hospitals": 10
+  },
+  {
+   "boundary": "2024-2025",
+   "entering": 2,
+   "leaving": 2,
+   "continuing_same_stratum": 75,
+   "entering_restratified": 0,
+   "new_hospitals": 2,
+   "departed_hospitals": 2
+  }
+ ],
+ "design_summary": {
+  "pooled": {
+   "mean_r": 0.53578290641242,
+   "median_r": 0.7089007174272773,
+   "min_r": -0.14669407456818573,
+   "max_r": 0.9429139463854622,
+   "cross_era_mean_r": 0.0035016797003764094,
+   "cross_era_min_r": -0.14669407456818573,
+   "cross_era_max_r": 0.14545582778611077,
+   "min_eigenvalue": 0.030002826002522274,
+   "condition_number": 245.56978922279777,
+   "total_se": 50825.189707084864
+  },
+  "pooled_linked_eraB_stratum": {
+   "mean_r": 0.6336317990984595,
+   "median_r": 0.6288509030777112,
+   "min_r": 0.22933960869941036,
+   "max_r": 0.9256917707801006,
+   "cross_era_mean_r": 0.4514767034898102,
+   "cross_era_min_r": 0.22933960869941036,
+   "cross_era_max_r": 0.6906818157557207,
+   "min_eigenvalue": 0.03547884942168937,
+   "condition_number": 210.68361672901307,
+   "total_se": 48184.71295094512
+  },
+  "pooled_linked_eraA_stratum": {
+   "mean_r": 0.6996185208290379,
+   "median_r": 0.7025401477958926,
+   "min_r": 0.35789480602675705,
+   "max_r": 0.9374821646339434,
+   "cross_era_mean_r": 0.5507683829822597,
+   "cross_era_min_r": 0.35789480602675705,
+   "cross_era_max_r": 0.7494774223396874,
+   "min_eigenvalue": 0.029763495323408155,
+   "condition_number": 271.61095256181085,
+   "total_se": 53107.084990334806
+  },
+  "year_specific": {
+   "mean_r": 0.5911569365998692,
+   "median_r": 0.6884698278891935,
+   "min_r": 0.10555057349339027,
+   "max_r": 0.9307494563049675,
+   "cross_era_mean_r": 0.2079837223318296,
+   "cross_era_min_r": 0.10555057349339027,
+   "cross_era_max_r": 0.3497546262271488,
+   "min_eigenvalue": 0.04333919026181683,
+   "condition_number": 170.51568005817765,
+   "total_se": 44384.21876079663
+  },
+  "year_specific_linked_eraB_stratum": {
+   "mean_r": 0.6799041037964061,
+   "median_r": 0.6884698278891935,
+   "min_r": 0.30121432363219325,
+   "max_r": 0.9307494563049675,
+   "cross_era_mean_r": 0.4791556220990252,
+   "cross_era_min_r": 0.30121432363219325,
+   "cross_era_max_r": 0.6598809520258625,
+   "min_eigenvalue": 0.038077970476288,
+   "condition_number": 208.48550498052026,
+   "total_se": 47042.00209744197
+  },
+  "year_specific_linked_eraA_stratum": {
+   "mean_r": 0.7372073622801031,
+   "median_r": 0.7330557315230797,
+   "min_r": 0.45877303456072965,
+   "max_r": 0.9307494563049675,
+   "cross_era_mean_r": 0.6542489119103216,
+   "cross_era_min_r": 0.45877303456072965,
+   "cross_era_max_r": 0.824780264335885,
+   "min_eigenvalue": 0.04267777474686433,
+   "condition_number": 197.50317220506017,
+   "total_se": 48675.47326086969
+  }
+ },
+ "boundary_2023_2024": {
+  "hospitals_reporting_both_years": 68,
+  "cohort_unweighted_2023": 1293,
+  "cohort_unweighted_2024": 1354,
+  "all_records_unweighted_2023": 304864,
+  "all_records_unweighted_2024": 336807,
+  "cohort_weighted_2023": 31497.4253,
+  "cohort_weighted_2024": 40062.6643,
+  "mean_cohort_weight_2023": 24.35995769528229,
+  "mean_cohort_weight_2024": 29.588378360413586,
+  "national_all_injury_2023": 12740256.315600414,
+  "national_all_injury_2024": 15068978.764100315
+ },
+ "cohort_flow": {
+  "all_records": {
+   "n": 3924903,
+   "estimate": 150293195.9607994,
+   "se": 14613623.669936975,
+   "cv": 0.09723410016344726,
+   "ci_lo": 121651019.88410087,
+   "ci_hi": 178935372.0374979
+  },
+  "age_10_18": {
+   "n": 732983,
+   "estimate": 23289914.206499986,
+   "se": 2476321.35217883,
+   "cv": 0.10632591130317316,
+   "ci_lo": 18436413.542081952,
+   "ci_hi": 28143414.87091802
+  },
+  "finger": {
+   "n": 73419,
+   "estimate": 2373767.435499999,
+   "se": 238730.2972464954,
+   "cv": 0.1005702132720556,
+   "ci_lo": 1905864.6508783265,
+   "ci_hi": 2841670.220121672
+  },
+  "fracture_or_dislocation": {
+   "n": 24363,
+   "estimate": 669256.1163999999,
+   "se": 74806.74188312456,
+   "cv": 0.11177595549745291,
+   "ci_lo": 522637.5965082918,
+   "ci_hi": 815874.6362917081
+  }
+ },
+ "annual_estimates": {
+  "2015": 52515.8518,
+  "2016": 52107.9793,
+  "2017": 46929.41040000001,
+  "2018": 42160.21949999999,
+  "2019": 42644.0817,
+  "2020": 18070.8622,
+  "2021": 28635.1654,
+  "2022": 35536.463500000005,
+  "2023": 36270.9728,
+  "2024": 43605.5329,
+  "2025": 42964.2809
+ },
+ "se_year_specific": {
+  "2015": 5536.371910464625,
+  "2016": 6195.455564263516,
+  "2017": 4124.909321692838,
+  "2018": 5383.663264830374,
+  "2019": 6442.537474457248,
+  "2020": 2858.9683627664012,
+  "2021": 4081.330792902974,
+  "2022": 6160.046991552414,
+  "2023": 5244.8115041739,
+  "2024": 4478.096670188803,
+  "2025": 5068.723448688816
+ },
+ "se_pooled": {
+  "2015": 7760.0584866406725,
+  "2016": 7748.162821486718,
+  "2017": 5835.3883257508105,
+  "2018": 6309.763619237222,
+  "2019": 7243.722902077057,
+  "2020": 3109.7645078194255,
+  "2021": 4560.391350698935,
+  "2022": 6611.002171948822,
+  "2023": 5950.820442436894,
+  "2024": 5437.31946907351,
+  "2025": 5868.357561754288
+ }
+}

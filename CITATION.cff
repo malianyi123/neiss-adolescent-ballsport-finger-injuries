@@ -18,9 +18,9 @@ authors:
     # affiliation: ""                                   # TODO: add affiliation
   # TODO: add co-authors in submission order, one block each
 license: MIT
-repository-code: "https://github.com/USERNAME/neiss-adolescent-ballsport-finger-injuries"  # TODO: replace USERNAME
-version: "1.0.0"
-date-released: "2026-08-16"   # TODO: set to the release date
+repository-code: "https://github.com/malianyi123/neiss-adolescent-ballsport-finger-injuries"
+version: "1.1.0"
+date-released: "2026-10-14"
 keywords:
   - NEISS
   - injury surveillance
